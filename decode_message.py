@@ -14,12 +14,13 @@ Remember to change the directory back to where you found it. easy way is to save
 """
 
 import os
+dst ='/home/kbslalith/python projects/secret message'
 
 def rename_files():
-	prank_file = os.listdir("/home/kbslalith/Downloads/prank")
+	prank_file = os.listdir(dst)
 
 	saved_path = os.getcwd() 
-	os.chdir("/home/kbslalith/Downloads/prank") 
+	os.chdir(dst) 
 
 	for file_name in prank_file:
 		os.rename(file_name,file_name.translate(None,"0123456789")) 
