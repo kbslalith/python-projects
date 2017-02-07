@@ -1,3 +1,10 @@
+"""
+time.ctime() => this is used to find the current start time including date and day
+time.sleep(ENTER SECONDS HERE) => This is used to make the program wait for few seconds
+webbrowser.open("Enter URL Here") => This is used to pop open a web browser 
+
+"""
+
 import webbrowser
 import time
 
