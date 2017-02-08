@@ -15,8 +15,6 @@ Remember to change the directory back to where you found it. easy way is to save
 
 import os
 dst ='/home/kbslalith/python projects/secret message'
-#dst ='/home/kbslalith/python projects/prank'
-
 
 def rename_files():
 	prank_file = os.listdir(dst)
